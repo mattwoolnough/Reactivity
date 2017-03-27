@@ -1,5 +1,5 @@
-var CognitoIdentity = require('aws-sdk/clients/CognitoIdentity');
-var cognitoidentity = new CognitoIdentity({
+var AWS = require('aws-sdk');
+var cognitoidentity = new AWS.CognitoIdentity({
   region: 'us-east-1'
 });
 var Promise = require('bluebird');

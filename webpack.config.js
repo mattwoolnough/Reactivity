@@ -24,6 +24,7 @@ var config = {
     hints: process.env.NODE_ENV === 'production' ? 'warning' : false
   },
   devServer: {
+    host: "0.0.0.0",
     historyApiFallback: true,
     noInfo: true,
     stats: 'errors-only',
